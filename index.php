@@ -53,7 +53,7 @@ while(true){
 
   showBingo($bingo);
 
-  if ($win == 26){
+  if ($win == 24){
     echo $colors->getColoredString(PHP_EOL . PHP_EOL . 'BINGO!' . PHP_EOL, 'green');
 
     showBingo($bingo);
